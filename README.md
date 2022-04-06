@@ -1,6 +1,4 @@
-# Tiktok-Takipci-Api
-
-## Tiktok Takipci Çekme!
+# Tiktok Takipci Çekme!
 
 Kurulum
 =
