@@ -8,7 +8,9 @@ Kurulum
     pip install requests
 
 ## Api Key Almak İçin
+<p>Api Ücrestiz Versiyonda 50 Adet Sorgu İle Sınırlıdır!</p>
 <a href="https://scraptik.com/">Scraptik</a>
+<p> X-RapidAPI-Key Yazan Bölüm Api Keyinizdir!!</p>
 
 
 ## Tiktok User ID Bulmak
