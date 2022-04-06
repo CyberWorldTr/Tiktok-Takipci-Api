@@ -12,4 +12,5 @@ Kurulum
 
 
 ## Tiktok User ID Bulmak
-<img src="1.png">
+
+<img witdh="200px" src="1.png">
