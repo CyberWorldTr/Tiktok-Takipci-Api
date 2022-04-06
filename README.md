@@ -9,3 +9,7 @@ Kurulum
 
 ## Api Key Almak İçin
 <a href="https://scraptik.com/">Scraptik</a>
+
+
+## Tiktok User ID Bulmak
+<img src="1.png">
