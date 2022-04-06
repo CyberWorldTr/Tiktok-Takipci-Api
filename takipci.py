@@ -13,7 +13,6 @@ scraptik_apikey = "ApikeyBuradaOlacak"
 
 user_id = "7062395658234151938"
 
-fieldnames
 
 #Çekilecek Bilgiler Burada İsterseniz Azaltın!!
 
