@@ -16,7 +16,7 @@ user_id = "7062395658234151938"
 
 #Çekilecek Bilgiler Burada İsterseniz Azaltın!!
 
-alanaditipi = [
+fieldnames = [
     'unique_id',
     'uid',
     'region',
@@ -37,9 +37,9 @@ alanaditipi = [
 with open(r'cikti.csv', 'w') as f:
     writer = csv.writer(f)
     row = {}
-    for x in alanaditipi:
+    for x in fieldnames:
         row[x] = x
-    writer = csv.DictWriter(f, alanaditipi=alanaditipi)
+    writer = csv.DictWriter(f, fieldnames=fieldnames)
     writer.writerow(row)
 #request Sorgusu!        
 def get_followers(user_id, max_time):
@@ -63,14 +63,14 @@ def get_followers(user_id, max_time):
             with open(r'data.csv', 'a') as f:
                 writer = csv.writer(f)
                 row = {}
-                for x in alanaditipi:
+                for x in fieldnames:
                     if x in u and u[x]:
                         row[x] = str(u[x])
                         
                         if x == "uid":
                             row[x] = str(u[x]) + ''
 
-                writer = csv.DictWriter(f, alanaditipi=alanaditipi, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
                 writer.writerow(row)
 
         if r["has_more"]:
