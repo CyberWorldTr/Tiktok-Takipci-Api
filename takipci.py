@@ -77,7 +77,7 @@ def get_followers(user_id, max_time):
             get_followers(user_id, r["min_time"])
 
     except:
-        print("Error!")
+        print("Hata!")
 
     
 get_followers(user_id, int(time.time()))
