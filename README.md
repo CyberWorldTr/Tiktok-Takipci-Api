@@ -2,8 +2,8 @@
 ## Güncellemeler!
 <p>Api Sıkıntısı Giderildi Test Edildi</p>
 <p>Takip Edilen Modülü Eklendi Test Edildi</p>
-<p>Takipçi Çekmek Modulü: takipci.py</p>
-<p>Takip Edilen Çekme Modülü: <a href="/takipci.py"> takipedilen.py </a> </p>
+<p>Takipçi Çekmek Modulü: <a href="/takipci.py"> takipci.py </a></p>
+<p>Takip Edilen Çekme Modülü: <a href="/takipedilen.py"> takipedilen.py </a> </p>
 
 
 
