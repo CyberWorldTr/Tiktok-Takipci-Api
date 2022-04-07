@@ -3,7 +3,7 @@
 <p>Api Sıkıntısı Giderildi Test Edildi</p>
 <p>Takip Edilen Modülü Eklendi Test Edildi</p>
 <p>Takipçi Çekmek Modulü: takipci.py</p>
-<p>Takip Edilen Çekme Modülü: <a href="/takipci.py" takipedilen.py /> </p>
+<p>Takip Edilen Çekme Modülü: <a href="/takipci.py"> takipedilen.py </a> </p>
 
 
 
